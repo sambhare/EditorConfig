@@ -1,0 +1,21 @@
+"Options specific to the GUI appear here
+
+"Set GUI font
+set guifont=Consolas:h9
+set gfw=Courier_New:h9
+
+"Make horizontal scroll bars visible, so no need for wrapping
+set nowrap
+set guioptions+=bh
+
+"Always show the tab bar in gui mode
+set showtabline=2
+
+"Maximize on startup
+"au GUIEnter * simalt ~x
+
+"Add icons to toolbar for tag stack navigation
+amenu icon=$VIM/vimfiles/Back.bmp ToolBar.Back :pop<CR>
+tmenu ToolBar.Back Go back <Ctrl-RightClick>
+amenu icon=$VIM/vimfiles/Forward.bmp ToolBar.Forward :tag<CR>
+tmenu ToolBar.Forward Go forward <Ctrl-Click>
