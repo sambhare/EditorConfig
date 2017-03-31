@@ -2,7 +2,6 @@
 
 "Set GUI font
 set guifont=Consolas:h9
-set gfw=Courier_New:h9
 
 "Make horizontal scroll bars visible, so no need for wrapping
 set nowrap
@@ -19,3 +18,4 @@ amenu icon=$VIM/vimfiles/Back.bmp ToolBar.Back :pop<CR>
 tmenu ToolBar.Back Go back <Ctrl-RightClick>
 amenu icon=$VIM/vimfiles/Forward.bmp ToolBar.Forward :tag<CR>
 tmenu ToolBar.Forward Go forward <Ctrl-Click>
+

@@ -21,3 +21,4 @@ cabbrev he vertical rightbelow help
 colorscheme vcbc                            "Default colorscheme
 set printfont=Consolas:h9                   "Default print font
 set backupdir=$TEMP,$TMP,.                  "Try to use Windows temp folders before using current directory for temp
+
