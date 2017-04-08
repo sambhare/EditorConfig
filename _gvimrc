@@ -14,8 +14,8 @@ set showtabline=2
 "au GUIEnter * simalt ~x
 
 "Add icons to toolbar for tag stack navigation
-amenu icon=$VIM/vimfiles/Back.bmp ToolBar.Back :pop<CR>
+amenu icon=Back ToolBar.Back :pop<CR>
 tmenu ToolBar.Back Go back <Ctrl-RightClick>
-amenu icon=$VIM/vimfiles/Forward.bmp ToolBar.Forward :tag<CR>
+amenu icon=Forward ToolBar.Forward :tag<CR>
 tmenu ToolBar.Forward Go forward <Ctrl-Click>
 
