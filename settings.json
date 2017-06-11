@@ -1,0 +1,13 @@
+{
+    "workbench.sideBar.location": "right",
+    "workbench.colorTheme": "Default Light+",
+    "workbench.iconTheme": "vs-seti",
+    "editor.fontSize": 12.5,
+    "editor.minimap.enabled": false,
+    "terminal.integrated.fontSize": 13,
+    "workbench.editor.closeOnFileDelete": false,
+    "workbench.colorCustomizations": {
+        "tab.inactiveBackground": "#ddd",
+        "tab.activeForeground": "#000"
+    }
+}
