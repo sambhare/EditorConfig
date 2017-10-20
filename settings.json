@@ -11,7 +11,6 @@
     "workbench.editor.closeOnFileDelete": false,
     "workbench.sideBar.location": "right",
     "workbench.startupEditor": "newUntitledFile",
-    "workbench.welcome.enabled": false,
     "workbench.colorCustomizations": {
         "tab.activeForeground": "#000",
         "tab.inactiveBackground": "#ddd"
