@@ -3,17 +3,21 @@
     "editor.fontSize": 12.5,
     "editor.minimap.enabled": false,
     "editor.renderLineHighlight": "gutter",
-    "explorer.decorations.badges": false,    
+    "editor.rulers": [120],
+    "editor.smoothScrolling": true,
+    "explorer.decorations.badges": false,
+    "explorer.sortOrder": "type",
     "extensions.autoUpdate": false,
+    "files.trimTrailingWhitespace": true,
     "git.confirmSync": false,
+    "git.autofetch": true,
     "terminal.integrated.fontFamily": "'Consolas', monospace",
     "terminal.integrated.fontSize": 13,
     "workbench.colorTheme": "Default Light+",
-    "workbench.editor.closeOnFileDelete": false,
-    "workbench.sideBar.location": "right",
-    "workbench.startupEditor": "newUntitledFile",
     "workbench.colorCustomizations": {
         "tab.activeForeground": "#000",
         "tab.inactiveBackground": "#ddd"
-    }
+    },
+    "workbench.editor.closeOnFileDelete": false,
+    "workbench.sideBar.location": "right"
 }
