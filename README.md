@@ -1,2 +1,3 @@
-# EditorConfig
-Various editor configuration files
+# Config
+
+Various configuration files
