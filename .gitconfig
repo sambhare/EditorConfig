@@ -1,2 +1,9 @@
+[user]
+        name = Rajas Sambhare
+        email = sambhare@users.noreply.github.com
 [alias]
 	graph = log --graph --pretty=format:'%<|(18)%Cred%ar %<|(38)%Cblue%an %Creset%s %Cgreen%d %Creset(%h)'
+[merge]
+        conflictstyle = zdiff3
+[diff]
+        algorithm = histogram
